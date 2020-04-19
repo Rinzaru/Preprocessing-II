@@ -168,42 +168,10 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.navigation {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 2%;
-  padding-bottom: 2%;
-  border-bottom: 2px dashed #c0c0c0;
-}
-.navigation .title {
-  margin-right: 45%;
-  font-weight: bold;
-}
-.navigation a {
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: bold;
-  color: black;
-  padding-right: 20px;
-}
-@media (max-width: 500px) {
-  .navigation {
-    flex-direction: column;
-  }
-  .navigation .title {
-    margin-left: 40%;
-    white-space: nowrap;
-  }
-  .navigation a {
-    vertical-align: right;
-    text-align: right;
-    margin-left: 45px;
-  }
-}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
-  background: #ffebcd;
+  background: #FFEBCD;
 }
 .footer p {
   text-align: center;
@@ -211,23 +179,11 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
-.home {
-  width: 100%;
-}
-.home .top-content {
-  padding-bottom: 30px;
-  border-bottom: 2px dashed #c0c0c0;
-  font-weight: bold;
-}
-.home .top-content .welcomeBus {
-  margin-top: 2%;
-}
 .home .content-section {
   margin: 30px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  font-weight: bold;
 }
 .home .content-section .text-content {
   width: 48%;
@@ -242,8 +198,7 @@ img {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #c0c0c0;
-  font-weight: bold;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -256,56 +211,20 @@ img {
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
-  font-weight: bold;
 }
 .home .content-destination img {
   border-radius: 10px;
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #c0c0c0;
+  border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
 }
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
-  font-weight: bold;
 }
 .home .content-pick .destination .btn {
   font-size: 15px;
-  border: 1px solid White;
-  background-color: #17a2b8;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
-  border-radius: 25px;
-}
-@media (max-width: 500px) {
-  .content-section {
-    align-items: center;
-    flex-direction: column;
-  }
-  .inverse-content {
-    align-items: center;
-    flex-direction: column-reverse;
-  }
-  .desination {
-    align-items: center;
-  }
-  .content-pick {
-    flex-direction: column;
-    align-items: center;
-    padding-right: 25%;
-  }
-  .content-pick h4 {
-    white-space: nowrap;
-  }
-  .content-pick p {
-    width: 250%;
-  }
-  .content-pick .btn {
-    white-space: nowrap;
-  }
 }
